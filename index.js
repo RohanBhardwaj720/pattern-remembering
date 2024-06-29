@@ -1,6 +1,6 @@
 var generated_pattern = [];
 var user_response = [];
-var color = ["green_poop", "red_poop", "yellow_poop", "blue_poop"];
+var color = ["green", "red", "yellow", "blue"];
 var start = false;
 let flash = 0;
 var take_input = false;

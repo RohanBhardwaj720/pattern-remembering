@@ -1,6 +1,8 @@
 
 body, html {
     background-color: black;
+    display:flex;
+    justify-content: center;
     text-align: center;
 }
 * {
@@ -39,11 +41,10 @@ body, html {
 
 #welcome_bubble {
     position: relative;
-    height: 20vh;
-    width: 25vh;
+    height: 23vh;
+    width: 28vh;
     margin-right: -15vh;
-    margin-bottom: -4vh;.
-    z-index: 1;
+    margin-bottom: -4vh; 
 }
 
 #top_prof-1 {
@@ -52,8 +53,8 @@ body, html {
     width: 20vh;
 }
 
-.prof-poop-text {
-    width: 40vh;
+.prof-text {
+    width: 50vh;
 }
 
 
@@ -95,7 +96,7 @@ body, html {
 }
 
 
-#yellow_poop {
+#yellow {
     border-radius: 1vh;
     height: 18vh;
     width: 18vh;
@@ -105,7 +106,7 @@ body, html {
     /*padding: 2vh 2vh 2vh 2vh;*/
 }
 
-#red_poop {
+#red {
     border-radius: 1vh;
     height: 18vh;
     width: 18vh;
@@ -115,7 +116,7 @@ body, html {
     /*padding: 2vh 2vh 2vh 2vh;*/
 }
 
-#blue_poop {
+#blue {
     border-radius: 1vh;
     height: 18vh;
     width: 18vh;
@@ -124,7 +125,7 @@ body, html {
     /*padding: 2vh 2vh 2vh 2vh;*/
 }
 
-#green_poop {
+#green {
     border-radius: 1vh;
     height: 18vh;
     width: 18vh;
@@ -133,22 +134,22 @@ body, html {
     /*padding: 2vh 2vh 2vh 2vh;*/
 }
 
-.pressed_green_poop {
+.pressed_green {
     box-shadow: 0 0 20px #009444;
     background-color: #009444;
     filter: contrast(50%);
 }
-.pressed_red_poop {
+.pressed_red {
     box-shadow: 0 0 20px #BE1E2D;
     background-color: #BE1E2D;
     filter: contrast(50%);
 }
-.pressed_blue_poop {
+.pressed_blue {
     box-shadow: 0 0 20px #00AEEF;
     background-color: #00AEEF;
     filter: contrast(50%);
 }
-.pressed_yellow_poop {
+.pressed_yellow {
     box-shadow: 0 0 20px #FFB90B;
     background-color: #FFB90B;
     filter: contrast(50%);
@@ -158,12 +159,12 @@ body, html {
 #game_over_bubble {
     margin-top: 5vh;
     margin-bottom: -4vh;
-    height: 20vh;
-    width: 25vh;
+    height: 23vh;
+    width: 28vh;
     margin-right: -20vh;
 }
 
-#top_poop-2 {
+#top-2 {
     height: 25vh;
     width: 25vh;
 }
